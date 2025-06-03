@@ -17,7 +17,7 @@ body {
 .navbar-logo {
     font-size: 24px;
     font-weight: bold;
-    color: #ffd700; 
+    color: #ffd700;
 }
 
 .navbar-menu {
@@ -177,7 +177,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    
+
 }
 
 .filter {
@@ -247,7 +247,7 @@ body {
         flex: 1;
     }
 }
-/* ... (CSS yang sudah ada) ... */
+
 
 .category-grid {
   display: flex;
@@ -283,7 +283,7 @@ body {
 .banner {
   position: relative;
   width: 100%;
-  height: 700px; /* Sesuaikan tinggi banner */
+  height: 700px;
   overflow: hidden;
 }
 
@@ -293,15 +293,15 @@ body {
   object-fit: cover;
 }
 .tas-banner-video {
-  margin-top: 20px; /* Jarak antara katalog dan video */
+  margin-top: 20px;
 }
 
 .tas-banner-video video {
   width: 100%;
-  height: auto; /* Menjaga rasio aspek video */
+  height: auto;
 }
 
-/* styles.css */
+
 .homepage {
   font-family: 'Arial', sans-serif;
   background-color: #f5f5f5;
@@ -339,8 +339,8 @@ body {
 
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Tetapkan 4 kolom secara eksplisit */
-  gap: 20px; /* Jarak antar item */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
   margin-bottom: 40px;
 }
 
@@ -386,7 +386,7 @@ body {
   border-radius: 10px;
 }
 
-/* Responsivitas */
+
 @media (max-width: 768px) {
   .banner {
     height: 40vh;
@@ -409,16 +409,16 @@ body {
   }
 }
 
-/* Banner Section dengan Gambar Kiri dan Kanan */
+
 .banner-section {
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Align ke atas untuk konsistensi */
+  align-items: flex-start;
   gap: 20px;
   margin: 40px auto;
   padding: 0 20px;
-  max-width: 1200px; /* Sesuai dengan container */
-  flex-wrap: nowrap; /* Cegah wrap di PC */
+  max-width: 1200px;
+  flex-wrap: nowrap;
 }
 
 .left-images,
@@ -426,21 +426,21 @@ body {
   display: flex;
   flex-direction: column;
   gap: 75px;
-  width: 200px; /* Lebar tetap untuk gambar di PC */
-  flex-shrink: 0; /* Cegah penyusutan */
+  width: 200px;
+  flex-shrink: 0;
 }
 
 .side-image {
   width: 100%;
-  height: 150px; /* Tinggi lebih besar untuk visibilitas */
+  height: 150px;
   object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .tas-banner-video {
-  flex: 1; /* Ambil sisa ruang */
-  max-width: 600px; /* Lebar video lebih kecil untuk keseimbangan */
+  flex: 1;
+  max-width: 600px;
   width: 100%;
 }
 
@@ -448,40 +448,41 @@ body {
   width: 100%;
   height: auto;
   border-radius: 10px;
-  display: block; /* Pastikan video tidak terpengaruh float */
+  display: block;
 }
 
-/* Media Queries untuk Responsivitas */
 
-/* Tablet (max-width: 768px) */
+
+
+
 @media (max-width: 768px) {
   .banner-section {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    flex-wrap: wrap; /* Izinkan wrap di tablet */
+    flex-wrap: wrap;
     padding: 0 15px;
   }
 
   .left-images,
   .right-images {
-    flex-direction: row; /* Gambar horizontal di tablet */
+    flex-direction: row;
     width: 100%;
     justify-content: center;
     gap: 10px;
   }
 
   .side-image {
-    width: 100px; /* Ukuran lebih kecil untuk tablet */
+    width: 100px;
     height: 100px;
   }
 
   .tas-banner-video {
-    max-width: 100%; /* Video penuh lebar */
+    max-width: 100%;
   }
 }
 
-/* Handphone (max-width: 480px) */
+
 @media (max-width: 480px) {
   .banner-section {
     gap: 15px;
@@ -490,13 +491,13 @@ body {
 
   .left-images,
   .right-images {
-    flex-direction: column; /* Kembali vertikal di handphone */
+    flex-direction: column;
     width: 100%;
     align-items: center;
   }
 
   .side-image {
-    width: 100%; /* Gambar penuh lebar */
+    width: 100%;
     height: 120px;
   }
 
@@ -505,26 +506,25 @@ body {
   }
 }
 
-/* Impor Google Fonts untuk Cinzel */
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
 
-/* ... (CSS lain yang sudah ada tetap utuh) ... */
 
-/* Category Title */
+
+
 .category-title {
-  font-family: 'Cinzel', serif; /* Font mewah untuk judul */
-  font-size: 2.8rem; /* Lebih besar untuk kesan megah */
+  font-family: 'Cinzel', serif;
+  font-size: 2.8rem;
   font-weight: 700;
   color: #1a1a1a;
   margin-bottom: 30px;
   text-transform: uppercase;
-  letter-spacing: 3px; /* Jarak huruf lebih lebar untuk kemewahan */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsivitas */
 
-/* Tablet (max-width: 768px) */
+
 @media (max-width: 768px) {
   .category-title {
     font-size: 2.2rem;
@@ -533,7 +533,7 @@ body {
   }
 }
 
-/* Handphone (max-width: 480px) */
+
 @media (max-width: 480px) {
   .category-title {
     font-size: 1.8rem;
@@ -541,10 +541,10 @@ body {
     margin-bottom: 20px;
   }
 }
-/* Impor Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Didot:wght@400;700&display=swap');
 
-/* Navbar */
+
 .navbar {
   background-color: #000;
   color: #fff;
@@ -552,15 +552,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Didot', serif; /* Font mewah untuk navbar */
+  font-family: 'Didot', serif;
 }
 
-/* Gaya untuk logo gambar */
+
 .navbar img {
   height: 32px;
 }
 
-/* Menu */
+
 .navbar-menu {
   list-style: none;
   display: flex;
@@ -579,11 +579,11 @@ body {
 }
 
 .navbar-menu li a:hover {
-  color: #ffd700; /* Warna emas saat hover */
-  transform: scale(1.05); /* Efek zoom halus */
+  color: #ffd700;
+  transform: scale(1.05);
 }
 
-/* Hamburger */
+
 .hamburger {
   display: none;
   cursor: pointer;
@@ -595,7 +595,7 @@ body {
   stroke: #fff;
 }
 
-/* Responsivitas */
+
 @media (max-width: 768px) {
   .navbar-menu {
     display: none;
@@ -623,10 +623,10 @@ body {
   }
 }
 
-/* Impor Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* Luxury Text */
+
 .luxury-text {
   font-family: 'Playfair Display', serif;
   font-size: 1.5rem;
@@ -641,7 +641,7 @@ body {
   margin-right: auto;
 }
 
-/* Responsivitas */
+
 @media (max-width: 768px) {
   .luxury-text {
     font-size: 1.2rem;
@@ -658,11 +658,11 @@ body {
 
 
 
-/* Pastikan impor font ada di atas file */
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
-/* Wishlist Container */
+
 .wishlist-container {
   position: relative;
   max-width: 1200px;
@@ -671,7 +671,7 @@ body {
   text-align: center;
 }
 
-/* Wishlist Title */
+
 .wishlist-title {
   font-family: 'Cinzel', serif;
   font-size: 2.8rem;
@@ -683,7 +683,7 @@ body {
   letter-spacing: 3px;
 }
 
-/* Wishlist Empty Message */
+
 .wishlist-empty {
   font-family: 'Playfair Display', serif;
   font-size: 1.5rem;
@@ -692,7 +692,7 @@ body {
   margin: 40px 0;
 }
 
-/* Wishlist Flex */
+
 .wishlist-flex {
   display: flex;
   flex-direction: row;
@@ -705,7 +705,7 @@ body {
   margin-bottom: 40px;
 }
 
-/* Product Card */
+
 .product-card {
   background-color: #fff;
   border-radius: 10px;
@@ -718,12 +718,12 @@ body {
   opacity: 1;
 }
 
-/* Product Card Animation */
+
 .product-card {
   animation: slideIn 0.3s ease;
 }
 
-/* Keyframes for Slide In */
+
 @keyframes slideIn {
   from {
     transform: translateX(50px);
@@ -735,13 +735,13 @@ body {
   }
 }
 
-/* Product Card Hover */
+
 .product-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Product Image */
+
 .product-image {
   width: 100%;
   height: 200px;
@@ -750,7 +750,7 @@ body {
   aspect-ratio: 4 / 3;
 }
 
-/* Product Card Title */
+
 .product-card h3 {
   font-family: 'Playfair Display', serif;
   font-size: 1.5rem;
@@ -759,7 +759,7 @@ body {
   padding: 0 10px;
 }
 
-/* Product Card Price */
+
 .product-card p {
   font-family: 'Arial', sans-serif;
   font-size: 1rem;
@@ -768,7 +768,7 @@ body {
   padding: 0 10px;
 }
 
-/* Clear Wishlist Button */
+
 .clear-wishlist-btn {
   position: absolute;
   top: 10px;
@@ -785,13 +785,13 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* Clear Wishlist Button Hover */
+
 .clear-wishlist-btn:hover {
   background-color: #e6c200;
   transform: scale(1.05);
 }
 
-/* Remove Wishlist Button */
+
 .remove-wishlist-btn {
   margin-top: 9px;
   padding: 8px 15px;
@@ -806,12 +806,12 @@ body {
   margin-bottom: 10px;
 }
 
-/* Remove Wishlist Button Hover */
+
 .remove-wishlist-btn:hover {
   background-color: #555;
 }
 
-/* Responsivitas */
+
 @media (max-width: 768px) {
   .wishlist-container {
     padding: 30px 15px;
@@ -910,15 +910,15 @@ body {
     padding: 5px 10px;
   }
 }
-/* Wishlist Grid */
+
 .wishlist-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 kolom dengan lebar sama */
-  gap: 20px; /* Jarak antar barang */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
   margin-bottom: 40px;
 }
 
-/* Product Card */
+
 .product-card {
   background-color: #fff;
   border-radius: 10px;
@@ -928,12 +928,12 @@ body {
   transition: transform 0.3s ease;
 }
 
-/* Product Card Hover */
+
 .product-card:hover {
   transform: translateY(-5px);
 }
 
-/* Product Image */
+
 .product-image {
   width: 100%;
   height: 200px;
@@ -941,35 +941,35 @@ body {
   border-radius: 5px 5px 0 0;
 }
 
-/* Responsivitas */
+
 @media (max-width: 768px) {
   .wishlist-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 kolom di tablet */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 480px) {
   .wishlist-grid {
-    grid-template-columns: 1fr; /* 1 kolom di handphone */
+    grid-template-columns: 1fr;
   }
 }
-/* Mengatur container utama agar terpusat dan memiliki lebar maksimum */
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Mengatur grid untuk produk */
+
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 kolom dengan lebar sama */
-  gap: 20px; /* Jarak antar produk, baik horizontal maupun vertikal */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
   padding: 10px;
-  
+
 }
 
-/* Styling untuk setiap ProductCard */
+
 .product-card {
   display: flex;
   flex-direction: column;
@@ -978,18 +978,18 @@ body {
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk tampilan profesional */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Styling untuk gambar produk */
+
 .product-image {
   width: 100%;
-  height: 200px; /* Tinggi tetap untuk konsistensi */
-  object-fit: cover; /* Gambar tetap proporsional */
+  height: 200px;
+  object-fit: cover;
   border-radius: 5px;
 }
 
-/* Styling untuk teks di dalam ProductCard */
+
 .product-card h3 {
   margin: 10px 0;
   font-size: 1.2rem;
@@ -999,7 +999,7 @@ body {
   margin: 5px 0;
   color: #555;
 }
-/* Container untuk halaman detail */
+
 .product-detail-container {
   display: flex;
   gap: 20px;
@@ -1008,15 +1008,15 @@ body {
   margin: 0 auto;
 }
 
-/* Gambar produk di halaman detail */
+
 .product-detail-image {
-  width: 50%; /* Lebar gambar */
-  height: auto; /* Tinggi otomatis untuk menjaga proporsi */
-  object-fit: contain; /* Gambar tetap proporsional tanpa terpotong */
+  width: 50%;
+  height: auto;
+  object-fit: contain;
   border-radius: 5px;
 }
 
-/* Info produk */
+
 .product-detail-info {
   width: 50%;
   text-align: left;
@@ -1032,7 +1032,7 @@ body {
   color: #555;
 }
 
-/* Responsivitas untuk layar kecil */
+
 @media (max-width: 768px) {
   .product-detail-container {
     flex-direction: column;
@@ -1042,11 +1042,11 @@ body {
     width: 100%;
   }
 }
-/* Pastikan impor font ada di atas file */
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
-/* Product Detail Container */
+
 .product-detail-container {
   display: flex;
   gap: 20px;
@@ -1055,7 +1055,7 @@ body {
   margin: 0 auto;
 }
 
-/* Product Detail Image */
+
 .product-detail-image {
   width: 50%;
   height: auto;
@@ -1064,7 +1064,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Product Detail Info */
+
 .product-detail-info {
   width: 50%;
   text-align: left;
@@ -1086,10 +1086,10 @@ body {
   margin-bottom: 15px;
 }
 
-/* Wishlist Button */
+
 .add-wishlist-btn {
   padding: 10px 20px;
-  background-color: #ffd700; /* Emas untuk tema mewah */
+  background-color: #ffd700;
   color: #1a1a1a;
   border: none;
   border-radius: 5px;
@@ -1101,11 +1101,11 @@ body {
 }
 
 .add-wishlist-btn:hover {
-  background-color: #e6c200; /* Emas lebih gelap saat hover */
+  background-color: #e6c200;
   transform: scale(1.05);
 }
 
-/* Responsivitas */
+
 @media (max-width: 768px) {
   .product-detail-container {
     flex-direction: column;
@@ -1150,11 +1150,11 @@ body {
     padding: 6px 12px;
   }
 }
-/* Pastikan impor font ada di atas file */
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
-/* Product Card */
+
 .product-card {
   display: flex;
   flex-direction: column;
@@ -1192,7 +1192,7 @@ body {
   margin-bottom: 15px;
 }
 
-/* Product Card Buttons Container */
+
 .product-card-buttons {
   display: flex;
   flex-direction: column;
@@ -1200,7 +1200,7 @@ body {
   width: 100%;
 }
 
-/* Detail Button */
+
 .detail-button {
   padding: 8px 15px;
   background-color: #333;
@@ -1218,7 +1218,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Wishlist Button */
+
 .add-wishlist-btn {
   padding: 8px 15px;
   background-color: #ffd700;
@@ -1237,7 +1237,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Responsivitas */
+
 @media (max-width: 768px) {
   .product-card {
     padding: 10px;
@@ -1284,11 +1284,11 @@ body {
   }
 }
 
-/* Pastikan impor font ada di atas file */
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
-/* Product Detail Container */
+
 .product-detail-container {
   display: flex;
   flex-wrap: wrap;
@@ -1299,7 +1299,7 @@ body {
   align-items: center;
 }
 
-/* Container untuk gambar produk */
+
 .product-detail-image-container {
   flex: 1;
   display: flex;
@@ -1307,7 +1307,7 @@ body {
   min-width: 300px;
 }
 
-/* Gambar produk */
+
 .product-detail-image {
   max-width: 600px;
   width: 100%;
@@ -1317,14 +1317,14 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Informasi produk */
+
 .product-detail-info {
   flex: 1;
   min-width: 300px;
   text-align: left;
 }
 
-/* Judul produk */
+
 .product-detail-info h1 {
   font-family: 'Cinzel', serif;
   font-size: 2.5rem;
@@ -1334,7 +1334,7 @@ body {
   letter-spacing: 2px;
 }
 
-/* Harga produk */
+
 .product-detail-info .price {
   font-family: 'Playfair Display', serif;
   font-size: 1.8rem;
@@ -1342,7 +1342,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* Deskripsi produk */
+
 .product-detail-info .description {
   font-family: 'Playfair Display', serif;
   font-size: 1.2rem;
@@ -1351,7 +1351,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* Jumlah checkout */
+
 .product-detail-info .checkout-count {
   font-family: 'Playfair Display', serif;
   font-size: 1.1rem;
@@ -1360,7 +1360,7 @@ body {
   font-style: italic;
 }
 
-/* Tombol Wishlist */
+
 .add-wishlist-btn {
   padding: 12px 30px;
   background-color: #ffd700;
@@ -1379,7 +1379,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Responsivitas */
+
 @media (max-width: 1024px) {
   .product-detail-container {
     flex-direction: column;
@@ -1561,7 +1561,7 @@ body {
        transform: scale(1.05);
      }
 
-     /* Responsivitas */
+
      @media (max-width: 1024px) {
        .product-detail-container {
          flex-direction: column;
@@ -1600,7 +1600,7 @@ body {
        }
      }
 
-     /* Styling untuk ProductCard */
+
      .product-card {
        border: 1px solid #e0e0e0;
        border-radius: 8px;
@@ -1656,14 +1656,14 @@ body {
      .detail-button:hover {
        background-color: #333;
      }
-/* Container */
+
 .container {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Product Card */
+
 .product-card {
   background: #fff;
   border-radius: 10px;
@@ -1701,7 +1701,7 @@ body {
   margin: 0 0 10px;
 }
 
-/* Tombol Lihat Detail dan Wishlist */
+
 .product-buttons {
   display: flex;
   flex-direction: column;
@@ -1748,7 +1748,7 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Wishlist Page */
+
 .wishlist-item {
   background: #fff;
   border-radius: 10px;
@@ -1836,7 +1836,7 @@ body {
   text-align: center;
 }
 
-/* Cart Page */
+
 .cart-container {
   background-color: #f5f5f5;
   padding: 40px 20px;
@@ -1975,7 +1975,7 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* Filter */
+
 .filter {
   margin: 5px 0;
   display: flex;
@@ -1997,14 +1997,14 @@ body {
   border: 1px solid #ccc;
 }
 
-/* Product Detail Page */
+
 .product-detail {
   display: flex;
   gap: 20px;
   margin-top: 20px;
 }
 
-/* Carousel */
+
 .product-carousel {
   position: relative;
   width: 100%;
@@ -2061,7 +2061,7 @@ body {
   margin-top: 15px;
 }
 
-/* Responsivitas */
+
 @media (max-width: 768px) {
   .container {
     padding: 10px;
@@ -2255,22 +2255,22 @@ body {
   }
 }
 
-/* Styles untuk container utama */
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Styles untuk grid produk */
+
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 item per baris */
-  gap: 20px; /* Jarak antar item */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
   margin-bottom: 20px;
 }
 
-/* Styles untuk setiap item wishlist */
+
 .wishlist-item {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
@@ -2284,7 +2284,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Styles untuk gambar */
+
 .wishlist-image {
   width: 100%;
   max-height: 200px;
@@ -2293,7 +2293,7 @@ body {
   margin-bottom: 10px;
 }
 
-/* Styles untuk info produk */
+
 .wishlist-info {
   text-align: center;
 }
@@ -2310,7 +2310,7 @@ body {
   margin-bottom: 10px;
 }
 
-/* Styles untuk tombol */
+
 .wishlist-buttons {
   display: flex;
   justify-content: space-between;
@@ -2345,7 +2345,7 @@ body {
   background-color: #c82333;
 }
 
-/* Styles untuk tombol checkout */
+
 .checkout-button-container {
   text-align: center;
   margin-top: 20px;
@@ -2365,16 +2365,16 @@ body {
   background-color: #218838;
 }
 
-/* Responsivitas untuk layar kecil */
+
 @media (max-width: 900px) {
   .product-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 item per baris di layar sedang */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 600px) {
   .product-grid {
-    grid-template-columns: 1fr; /* 1 item per baris di layar kecil */
+    grid-template-columns: 1fr;
   }
 
   .wishlist-item {
@@ -2399,28 +2399,28 @@ body {
     font-size: 0.8rem;
   }
 }
-/* Styles untuk container utama */
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
-  display: flex; /* Gunakan flex untuk penyelarasan vertikal */
-  flex-direction: column; /* Susun anak-anak secara vertikal */
-  align-items: center; /* Pusatkan konten secara horizontal di dalam container */
-  min-height: 100vh; /* Pastikan container mengisi tinggi layar untuk centering vertikal */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
 }
 
-/* Styles untuk grid produk */
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   margin-bottom: 20px;
-  width: 100%; /* Pastikan grid mengisi lebar container */
-  justify-content: center; /* Pusatkan item grid secara horizontal jika ada ruang ekstra */
+  width: 100%;
+  justify-content: center;
 }
 
-/* Pastikan elemen di dalam grid juga terpusat jika perlu */
+
 .wishlist-card {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
@@ -2428,23 +2428,23 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   transition: box-shadow 0.3s ease;
-  text-align: center; /* Pusatkan teks di dalam kartu */
+  text-align: center;
 }
 
 .wishlist-card:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Styles untuk gambar wishlist */
+
 .wishlist-image {
   width: 100%;
-  height: 200px; /* Tinggi tetap untuk konsistensi */
-  object-fit: cover; /* Pastikan gambar tidak terpotong */
+  height: 200px;
+  object-fit: cover;
   border-radius: 4px;
   margin-bottom: 10px;
 }
 
-/* Styles untuk info produk */
+
 .wishlist-info {
   text-align: center;
 }
@@ -2461,17 +2461,17 @@ body {
   margin-bottom: 10px;
 }
 
-/* Styles untuk tombol wishlist */
+
 .wishlist-buttons {
   display: flex;
-  justify-content: space-between; /* Pastikan tombol sejajar dan memanfaatkan ruang */
-  gap: 10px; /* Jarak antar tombol */
-  align-items: center; /* Pastikan tombol sejajar secara vertikal */
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
 }
 
 .view-details-btn,
 .remove-wishlist-btn {
-  flex: 1; /* Tombol mengambil ruang yang sama */
+  flex: 1;
   padding: 8px;
   border: none;
   border-radius: 4px;
@@ -2480,8 +2480,8 @@ body {
   text-decoration: none;
   text-align: center;
   display: inline-block;
-  box-sizing: border-box; /* Pastikan padding tidak menambah lebar */
-  min-width: 0; /* Mencegah tombol terlalu lelet karena konten panjang */
+  box-sizing: border-box;
+  min-width: 0;
 }
 
 .view-details-btn {
@@ -2502,7 +2502,7 @@ body {
   background-color: #c82333;
 }
 
-/* Styles untuk tombol checkout dan hapus semua */
+
 .checkout-button-container {
   text-align: center;
   margin-top: 20px;
@@ -2514,7 +2514,7 @@ body {
 .checkout-btn,
 .clear-all-wishlist-btn {
   margin-top: 30px;
-  height: 50px; /* Tinggi tetap untuk konsistensi */
+  height: 50px;
   padding: 10px 10px;
   border: none;
   border-radius: 4px;
@@ -2532,7 +2532,7 @@ body {
 }
 
 .clear-all-wishlist-btn {
-  background-color: #ff0000; /* Merah terang */
+  background-color: #ff0000;
   color: white;
 }
 
@@ -2540,7 +2540,7 @@ body {
   background-color: #e60000;
 }
 
-/* Styles untuk ProductCard */
+
 .product-card {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
@@ -2618,16 +2618,16 @@ body {
   background-color: #218838;
 }
 
-/* Responsivitas untuk layar kecil */
+
 @media (max-width: 900px) {
   .product-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 item per baris di layar sedang */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 600px) {
   .product-grid {
-    grid-template-columns: 1fr; /* 1 item per baris di layar kecil */
+    grid-template-columns: 1fr;
   }
 
   .wishlist-card,
@@ -2637,7 +2637,7 @@ body {
 
   .wishlist-image,
   .product-image {
-    height: 150px; /* Sesuaikan tinggi untuk layar kecil */
+    height: 150px;
   }
 
   .wishlist-info h3,
@@ -2665,7 +2665,7 @@ body {
   }
 }
 
-/* Styles untuk teks luxury sebagai overlay */
+
 .luxury-text {
   position: absolute;
   top: 50%;
@@ -2676,25 +2676,25 @@ body {
   font-weight: bold;
   text-align: center;
   padding: 10px 20px;
-  background-color: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan */
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
-  z-index: 10; /* Pastikan di atas video */
-  animation: fadeInSlideDown 1s ease-out forwards; /* Animasi masuk satu kali */
+  z-index: 10;
+  animation: fadeInSlideDown 1s ease-out forwards;
 }
 
-/* Animasi masuk: Fade in dan slide dari atas */
+
 @keyframes fadeInSlideDown {
   0% {
     opacity: 0;
-    transform: translate(-50%, -100%); /* Mulai sedikit di atas posisi tengah */
+    transform: translate(-50%, -100%);
   }
   100% {
     opacity: 1;
-    transform: translate(-50%, -50%); /* Berakhir di posisi tengah */
+    transform: translate(-50%, -50%);
   }
 }
 
-/* Responsivitas untuk layar sedang (max-width: 900px) */
+
 @media (max-width: 900px) {
   .luxury-text {
     font-size: 1.2rem;
@@ -2702,40 +2702,40 @@ body {
   }
 }
 
-/* Responsivitas untuk layar kecil (max-width: 600px) */
+
 @media (max-width: 600px) {
   .luxury-text {
     font-size: 1rem;
     padding: 5px 10px;
   }
 }
-/* Styles untuk container utama */
+
 .container {
-  max-width: 1200px; /* Meningkatkan lebar untuk kesan luas dan mewah */
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 20px; /* Padding lebih besar untuk ruang putih */
+  padding: 40px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background-color: #F5F1E9; /* Latar belakang krem elegan */
+  background-color: #F5F1E9;
 }
 
-/* Styles untuk detail produk */
+
 .product-detail {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 40px; /* Jarak lebih besar antar elemen */
+  gap: 40px;
   width: 100%;
   max-width: 1100px;
   background-color: #fff;
   padding: 30px;
-  border-radius: 15px; /* Sudut melengkung modern */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Bayangan lembut untuk kesan mewah */
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* Styles untuk carousel produk */
+
 .product-carousel {
   flex: 1;
   position: relative;
@@ -2745,10 +2745,10 @@ body {
 
 .product-detail-image {
   width: 100%;
-  height: 400px; /* Tinggi gambar yang lebih premium */
+  height: 400px;
   object-fit: cover;
   display: none;
-  transition: opacity 0.5s ease; /* Transisi halus untuk pergantian gambar */
+  transition: opacity 0.5s ease;
 }
 
 .product-detail-image.active {
@@ -2760,7 +2760,7 @@ body {
   opacity: 0;
 }
 
-/* Styles untuk info produk */
+
 .product-detail-info {
   flex: 1;
   padding: 20px;
@@ -2768,20 +2768,20 @@ body {
 }
 
 .product-detail-info h1 {
-  font-family: 'Georgia', serif; /* Font elegan */
+  font-family: 'Georgia', serif;
   font-size: 2.5rem;
-  color: #1C2526; /* Hitam elegan */
+  color: #1C2526;
   margin-bottom: 15px;
-  letter-spacing: 1px; /* Spasi huruf untuk kesan mewah */
+  letter-spacing: 1px;
 }
 
 .product-detail-price {
-  font-family: 'Montserrat', sans-serif; /* Font modern */
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.8rem;
-  color: #FFD700; /* Emas untuk kesan mewah */
+  color: #FFD700;
   font-weight: 600;
   margin-bottom: 20px;
-  background-color: rgba(255, 215, 0, 0.1); /* Latar emas transparan */
+  background-color: rgba(255, 215, 0, 0.1);
   padding: 5px 15px;
   border-radius: 5px;
   display: inline-block;
@@ -2795,7 +2795,7 @@ body {
   margin-bottom: 30px;
 }
 
-/* Styles untuk tombol */
+
 .product-detail-buttons {
   text-align: center;
 }
@@ -2805,22 +2805,22 @@ body {
   font-size: 1.1rem;
   padding: 12px 30px;
   border: none;
-  border-radius: 5px; /* Sudut bulat modern */
+  border-radius: 5px;
   cursor: pointer;
-  background-color: #FFD700; /* Emas */
+  background-color: #FFD700;
   color: #1C2526;
   font-weight: 600;
-  transition: all 0.3s ease; /* Transisi halus */
-  box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3); /* Bayangan emas */
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
 }
 
 .wishlist-btn:hover {
-  background-color: #E6C200; /* Emas lebih gelap saat hover */
-  transform: translateY(-2px); /* Efek angkat saat hover */
+  background-color: #E6C200;
+  transform: translateY(-2px);
   box-shadow: 0 7px 20px rgba(255, 215, 0, 0.4);
 }
 
-/* Responsivitas untuk layar sedang (max-width: 900px) */
+
 @media (max-width: 900px) {
   .product-detail {
     flex-direction: column;
@@ -2854,7 +2854,7 @@ body {
   }
 }
 
-/* Responsivitas untuk layar kecil (max-width: 600px) */
+
 @media (max-width: 600px) {
   .container {
     padding: 20px 10px;
@@ -2886,8 +2886,8 @@ body {
   }
 }
 
-/*============*/
-/* Styles untuk container utama */
+
+
 .cart-container {
   max-width: 1400px;
   margin: 0 auto;
@@ -2900,7 +2900,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Styles untuk judul cart */
+
 .cart-title {
   font-family: 'Georgia', serif;
   font-size: 2.5rem;
@@ -2911,7 +2911,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* Styles untuk pesan cart kosong */
+
 .cart-empty {
   font-family: 'Georgia', serif;
   font-size: 1.5rem;
@@ -2920,7 +2920,7 @@ body {
   font-weight: 500;
 }
 
-/* Styles untuk summary cart */
+
 .cart-summary {
   background-color: #ffffff;
   padding: 60px;
@@ -2932,7 +2932,7 @@ body {
   border: 1px solid #e0e0e0;
 }
 
-/* Styles untuk judul summary */
+
 .summary-title {
   font-family: 'Georgia', serif;
   font-size: 2rem;
@@ -2941,7 +2941,7 @@ body {
   text-align: center;
 }
 
-/* Styles untuk container item */
+
 .summary-items {
   display: flex;
   flex-direction: column;
@@ -2949,7 +2949,7 @@ body {
   margin-bottom: 60px;
 }
 
-/* Styles untuk setiap item keranjang */
+
 .cart-item {
   display: flex;
   justify-content: space-between;
@@ -2965,7 +2965,7 @@ body {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Styles untuk gambar item */
+
 .cart-item-image {
   width: 120px;
   height: 120px;
@@ -2974,7 +2974,7 @@ body {
   margin-right: 30px;
 }
 
-/* Styles untuk info item */
+
 .item-info {
   flex: 1;
   text-align: left;
@@ -3002,7 +3002,7 @@ body {
   font-weight: 600;
 }
 
-/* Styles untuk kontrol kuantitas */
+
 .quantity-controls {
   display: flex;
   flex-direction: column;
@@ -3038,7 +3038,7 @@ body {
   font-weight: 500;
 }
 
-/* Styles untuk tombol hapus */
+
 .remove-cart-btn {
   font-family: 'Montserrat', sans-serif;
   padding: 12px 25px;
@@ -3054,7 +3054,7 @@ body {
   background-color: #c82333;
 }
 
-/* Styles untuk total summary */
+
 .summary-totals {
   text-align: right;
   margin-top: 50px;
@@ -3065,7 +3065,7 @@ body {
   margin-left: auto;
 }
 
-/* Styles untuk baris total */
+
 .total-line {
   display: flex;
   justify-content: space-between;
@@ -3075,7 +3075,7 @@ body {
   color: #444;
 }
 
-/* Styles untuk total akhir */
+
 .total-final {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -3085,7 +3085,7 @@ body {
   padding-top: 25px;
 }
 
-/* Styles untuk tombol konfirmasi pesanan */
+
 .confirm-order-btn {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.1rem;
@@ -3106,7 +3106,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* Responsivitas */
+
 @media (max-width: 900px) {
   .cart-item {
     flex-direction: column;
@@ -3188,15 +3188,15 @@ body {
     font-size: 1rem;
   }
 }
-/*=============================*/
-/* Reset default styles */
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Styles untuk container utama */
+
 .contact-page {
   max-width: 1600px;
   margin: 0 auto;
@@ -3209,7 +3209,7 @@ body {
   overflow: hidden;
 }
 
-/* Efek latar belakang dekoratif */
+
 .contact-page::before {
   content: '';
   position: absolute;
@@ -3222,7 +3222,7 @@ body {
   pointer-events: none;
 }
 
-/* Styles untuk judul */
+
 .contact-title {
   font-family: 'Playfair Display', serif;
   font-size: 3.5rem;
@@ -3237,7 +3237,7 @@ body {
   animation: fadeInDown 1s ease-out;
 }
 
-/* Animasi fade-in untuk judul */
+
 @keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -3249,7 +3249,7 @@ body {
   }
 }
 
-/* Styles untuk container kontak */
+
 .contact-container {
   display: flex;
   justify-content: space-between;
@@ -3260,7 +3260,7 @@ body {
   z-index: 2;
 }
 
-/* Styles untuk form kontak */
+
 .contact-form {
   flex: 1;
   background: rgba(255, 255, 255, 0.05);
@@ -3332,7 +3332,7 @@ body {
   transform: translateY(-3px);
 }
 
-/* Styles untuk info kontak */
+
 .contact-info {
   flex: 0.8;
   padding: 50px;
@@ -3393,7 +3393,7 @@ body {
   border-color: transparent;
 }
 
-/* Responsivitas */
+
 @media (max-width: 900px) {
   .contact-container {
     flex-direction: column;
@@ -3446,20 +3446,19 @@ body {
   }
 }
 
-/* Shipping */
-/* Shipping Animation */
+
 .shipping-animation {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.8); /* Dark dove-like overlay */
+  background: rgba(0, 0, 0, 0.8);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  z-index: 1000; /* Above other content */
+  z-index: 1000;
 }
 
 .package {
@@ -3489,7 +3488,7 @@ body {
 .shipping-text {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
-  color: #ffd700; /* Gold to match theme */
+  color: #ffd700;
   margin-top: 20px;
   text-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
   animation: fadeIn 0.8s ease-in;
@@ -3520,7 +3519,7 @@ body {
   100% { opacity: 1; transform: translateY(0); }
 }
 
-/* Responsive Styles for Shipping Animation */
+
 @media (max-width: 768px) {
   .shipping-text {
     font-size: 1.5rem;
@@ -3543,15 +3542,14 @@ body {
   }
 }
 
-/* BACK BUTTON ON DETAIL PAGE */
-/* Back Button */
+
 .back-btn {
   position: absolute;
   top: 10px;
-  left: 20px; /* Changed from right to left */
+  left: 20px;
   padding: 10px 20px;
   background-color: #000;
-  color: #ffd700; /* Gold to match theme */
+  color: #ffd700;
   font-family: 'Playfair Display', serif;
   font-size: 1.1rem;
   text-decoration: none;
@@ -3559,7 +3557,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  z-index: 10; /* Ensure above carousel images */
+  z-index: 10;
 }
 
 .back-btn:hover {
@@ -3568,11 +3566,11 @@ body {
   transform: scale(1.05);
 }
 
-/* Responsive Styles for Back Button */
+
 @media (max-width: 768px) {
   .back-btn {
     top: 15px;
-    left: 15px; /* Changed from right to left */
+    left: 15px;
     padding: 8px 15px;
     font-size: 1rem;
   }
@@ -3581,13 +3579,13 @@ body {
 @media (max-width: 600px) {
   .back-btn {
     top: 10px;
-    left: 10px; /* Changed from right to left */
+    left: 10px;
     padding: 6px 12px;
     font-size: 0.9rem;
   }
 }
 
-/* Base style for all product images */
+
 .product-detail-image {
   display: none;
   width: 100%;
@@ -3595,7 +3593,7 @@ body {
   object-fit: cover;
 }
 
-/* Styles for carousel images (multiple images) */
+
 .product-carousel .product-detail-image.active {
   display: block;
   position: absolute;
@@ -3604,15 +3602,12 @@ body {
   transition: opacity 0.5s ease-in-out;
 }
 
-/* Styles for single images (outside carousel) */
+
 .product-detail-image-container .product-detail-image.active {
   display: block;
   width: 100%;
   height: auto;
   max-height: 400px;
   object-fit: cover;
-  position: static; /* Override any absolute positioning */
+  position: static;
 }
-
-
-
