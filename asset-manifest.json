@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/FinalProject-BNCC-LnT-FrontendDevelopment-2025/static/css/main.146ce6da.css",
+    "main.css": "/FinalProject-BNCC-LnT-FrontendDevelopment-2025/static/css/main.28d99158.css",
     "main.js": "/FinalProject-BNCC-LnT-FrontendDevelopment-2025/static/js/main.9695b849.js",
     "static/js/453.eafc8984.chunk.js": "/FinalProject-BNCC-LnT-FrontendDevelopment-2025/static/js/453.eafc8984.chunk.js",
     "static/media/tas_banner.mp4": "/FinalProject-BNCC-LnT-FrontendDevelopment-2025/static/media/tas_banner.cfc209dc691765a8cfb0.mp4",
@@ -41,12 +41,12 @@
     "static/media/sepatu_2.png": "/FinalProject-BNCC-LnT-FrontendDevelopment-2025/static/media/sepatu_2.2509270c7daafa0aac4b.png",
     "static/media/tas_2.png": "/FinalProject-BNCC-LnT-FrontendDevelopment-2025/static/media/tas_2.75eb001cd96a7163bd21.png",
     "index.html": "/FinalProject-BNCC-LnT-FrontendDevelopment-2025/index.html",
-    "main.146ce6da.css.map": "/FinalProject-BNCC-LnT-FrontendDevelopment-2025/static/css/main.146ce6da.css.map",
+    "main.28d99158.css.map": "/FinalProject-BNCC-LnT-FrontendDevelopment-2025/static/css/main.28d99158.css.map",
     "main.9695b849.js.map": "/FinalProject-BNCC-LnT-FrontendDevelopment-2025/static/js/main.9695b849.js.map",
     "453.eafc8984.chunk.js.map": "/FinalProject-BNCC-LnT-FrontendDevelopment-2025/static/js/453.eafc8984.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.146ce6da.css",
+    "static/css/main.28d99158.css",
     "static/js/main.9695b849.js"
   ]
 }
