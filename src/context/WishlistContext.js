@@ -6,13 +6,11 @@ const WishlistContext = createContext();
 export function WishlistProvider({ children }) {
   const [wishlist, setWishlist] = useState([]);
 
-  // Load wishlist dari localStorage saat komponen dimuat
   useEffect(() => {
     const savedWishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
     setWishlist(savedWishlist);
   }, []);
 
-  // Simpan wishlist ke localStorage saat berubah
   useEffect(() => {
     localStorage.setItem("wishlist", JSON.stringify(wishlist));
   }, [wishlist]);
@@ -22,7 +20,7 @@ export function WishlistProvider({ children }) {
       if (!prev.some((item) => item.id === product.id)) {
         return [...prev, product];
       }
-      return prev; // Tidak menambahkan jika sudah ada
+      return prev;
     });
   };
 
